@@ -1,8 +1,8 @@
 
-# DataGuard Coding Challeng 
+# DataGuard Coding Challenge
 *done by Henrik Lippke (15.August, 2024)*
 
-This project contains a webapp, which shows the repositories of the last 30 days, which were written with the javascript language, sorted by the one with the most stars.
+This project contains a webapp, which shows the repositories of the last 30 days, which were written with javascript, sorted by the one with the most stars.
 
 There are always 3 repositories loaded and more can be loaded with the ‘Load More’ button.
 
@@ -16,7 +16,7 @@ In addition, **pinia** was used as a store and **vue3-toastify** to display erro
 docker-compose up --build
 ```
 
-Open your browser and navigate to [http://localhost:5173/](http://localhost:5173/)
+Open your browser and navigate to [http://localhost:5173/](http://localhost:5173/).
 
 ## Screenshots
 
