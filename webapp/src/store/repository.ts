@@ -57,7 +57,7 @@ export const useRepositoryStore = defineStore('repository', {
 
         addRepositories(data: any[]) {
             const repositories = data.map((item) => ({
-                name: item.name,
+                name: item.full_name,
                 description: item.description,
                 createdAt: item.created_at,
                 url: item.html_url,
